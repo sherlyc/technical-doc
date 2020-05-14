@@ -1,5 +1,6 @@
 * {
 font-family: 'Quicksand', sans-serif;
+line-height: 1.5em;
 }
 
 .container {
@@ -12,12 +13,18 @@ header {
   font-weight: 600;
 }
 
+section {
+  display: block;
+}
+
 section ul li:not(:last-child) {
     margin-bottom: 1em;
 }
 
 .main {
+  display: block;
   flex: 3;
+  margin: 0 1em;
 }
 
 .sidebar {
@@ -36,5 +43,12 @@ section ul li:not(:last-child) {
   text-decoration: none;
   color: #000;
   font-weight: 600;
+}
+
+code {
+  display: block;
+  background-color: #f7f7f7;
+  line-height: 2em;
+  white-space: pre;
 }
 
