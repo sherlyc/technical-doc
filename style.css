@@ -2,6 +2,11 @@
 font-family: 'Quicksand', sans-serif;
 }
 
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 header {
   font-size: 2em;
   font-weight: 600;
@@ -10,3 +15,14 @@ header {
 section ul li:not(:last-child) {
     margin-bottom: 1em;
 }
+
+.sidebar {
+  background-color: #E0E0E0;
+  flex: 1;	
+}
+
+.main {
+  flex: 3;
+}
+
+
