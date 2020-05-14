@@ -7,6 +7,6 @@ header {
   font-weight: 600;
 }
 
-li:not(:last-child) {
+section ul li:not(:last-child) {
     margin-bottom: 1em;
 }
