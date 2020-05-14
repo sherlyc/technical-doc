@@ -8,6 +8,16 @@ margin: 0;
   display: flex;
 }
 
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+p {
+  margin: 1.5em;
+}
+
 header {
   font-size: 2em;
   font-weight: 600;
