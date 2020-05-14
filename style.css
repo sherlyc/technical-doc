@@ -15,6 +15,7 @@ header {
 
 section {
   display: block;
+  margin-bottom: 30px;
 }
 
 section ul li:not(:last-child) {
