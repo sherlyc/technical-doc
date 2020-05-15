@@ -6,16 +6,17 @@ margin: 0;
 
 .container {
   display: flex;
+  max-height: 100vh;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 810px) {
   .container {
     flex-direction: column;
   }
 }
 
 p {
-  margin: 1.5em;
+  margin: 1.5em 0;
 }
 
 header {
@@ -26,6 +27,7 @@ header {
 section {
   display: block;
   margin-bottom: 30px;
+  padding: 0 1em;
 }
 
 section ul li:not(:last-child) {
@@ -35,7 +37,7 @@ section ul li:not(:last-child) {
 .main {
   display: block;
   flex: 3;
-  margin: 0 1em;
+  overflow-y: auto;
 }
 
 .sidebar {
@@ -59,7 +61,6 @@ section ul li:not(:last-child) {
 code {
   display: block;
   background-color: #f7f7f7;
-  line-height: 2em;
-  white-space: pre;
+  padding: 10px;
 }
 
